@@ -1,3 +1,3 @@
-# rental-tailwind
+# masjid
 
-demo https://coba-rental.netlify.app/
+demo https://tes-masjid.netlify.app/
