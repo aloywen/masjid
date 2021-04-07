@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masjid Al - Muhajirin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet">
+</head>
+
+<body id="atas">
+    <div class="flex flex-col justify-center w-full">
+
+        <!-- navbar -->
+        <nav id="nav" class="flex justify-around bg-blue-400 h-16 items-center bg-blue-400 w-full fixed top-0 z-10">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/logo masjid.png" alt="logo" class="h-14 w-14"></a>
+            </div>
+
+            <ul class="flex">
+                <li><a href="profil.html" class="md:text-lg lg:text-2xl dark:text-gray-100 mr-8 text-white">Profil</a>
+                </li>
+                <li><a href="artikel.html" class="md:text-lg lg:text-2xl dark:text-gray-100 mr-8 text-white">Artikel</a>
+                </li>
+                <li><a href="galeri.html" class="md:text-lg lg:text-2xl dark:text-gray-100 text-white">Galeri</a></li>
+            </ul>
+
+            <!-- tombol menu -->
+            <div class="menu-toggle flex flex-col justify-between h-7 relative sm:hidden md:hidden lg:hidden">
+                <input class="absolute h-11 w-11 opacity-0 z-10" type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </nav>
+
+        <!-- tombol ke atas -->
+        <a href="#atas">
+            <button
+                class="w-14 h-14 rounded-full bg-green-400 fixed bottom-5 right-5 z-10 text-xl text-gray-100 outline-none">^
+            </button>
+        </a>
+
+        <img src="./assets/5.jpg" alt="foto" class="mt-16">
+
+        <!-- profil -->
+        <h2 class="mt-10 text-center">Masjid Al - Muhajirin</h2>
+        <p class="mt-3 font-sans ml-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam alias
+            doloremque. Voluptate
+            nostrum explicabo nesciunt obcaecati architecto error aut non sunt soluta distinctio nobis dignissimos
+            veritatis, cupiditate, mollitia tempore.</p>
+
+        <!-- kepengurusan -->
+        <h2 class="mt-10 text-center">Kepengurusan Masjid Al - Muhajirin</h2>
+        <div class="w-11/12 mx-auto mt-3">
+            <table class="table table-striped w-11/12 flex justify-center bg-gray-100">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Pengurus</th>
+                        <th>Jabatan</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td>1</td>
+                        <td>Jamal</td>
+                        <td>Penasihat</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jamil</td>
+                        <td>Ketua DKM</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Kamil</td>
+                        <td>Sekertaris</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+        <!-- saldo kas -->
+        <h2 class="mt-10 text-center">Saldo Kas Masjid</h2>
+        <!-- tabel -->
+        <div class=" w-11/12 mx-auto">
+            <table class="table table-striped w-11/12 flex justify-center bg-gray-100" id="table1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Jenis Kas</th>
+                        <th>Uraian</th>
+                        <th>Jumlah</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Masuk</td>
+                        <td>Sumbangan</td>
+                        <td>Rp . 54.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Masuk</td>
+                        <td>Sumbangan</td>
+                        <td>Rp . 54.000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Keluar</td>
+                        <td>Service Kipas</td>
+                        <td>Rp . 24.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- footer -->
+        <div id="kontak" class="flex justify-center items-center bg-gray-800 flex flex-col py-14 mt-10">
+            <p class="text-xl font-semibold text-white">Masjid Al - Muhajirin</p>
+            <p class="text-white">Jl. jalan, Kota Bekasi</p>
+            <div class="mt-5">
+                <div class="flex items-center">
+                    <img src="./assets/fb.png" alt="" class="w-10 h-10 mr-5">
+                    <p class="text-white font-sans">Masjid Al - Muhajirin</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/ig.png" alt="" class="w-10 h-10 mr-5">
+                    <p class="text-white font-sans">Masjid Al - Muhajirin</p>
+                </div>
+                <div class="flex items-center">
+                    <img src="./assets/wa.png" alt="" class="w-10 h-10 mr-5">
+                    <p class="text-white font-sans">08123456789</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="./assets/simple-datatables.js"></script>
+
+    <script>
+        //darkmode
+        // const tombol = document.querySelector('.tombol');
+        const body = document.querySelector('#atas');
+
+        // tombol.addEventListener('click', function () {
+        //     body.classList.toggle('dark');
+        // });
+
+        //navbar scroll
+        // window.addEventListener("scroll", function () {
+        //     let nav = document.querySelector("nav");
+        //     nav.classList.toggle("sticky", window.scrollY > 0);
+        // })
+
+        // window.addEventListener("scroll", function () {
+        //     let hero = document.querySelector(".hero");
+        //     hero.classList.toggle("active", window.scrollY > -1);
+        // })
+
+        // window.addEventListener("scroll", function () {
+        //     let about = document.querySelector("#about");
+        //     about.classList.toggle("active", window.scrollY > 1);
+        // })
+
+
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+
+        let table1 = document.querySelector('#table1');
+        let dataTable = new simpleDatatables.DataTable(table1);
+
+    </script>
+
+</body>
+
+</html>
